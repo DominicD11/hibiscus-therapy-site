@@ -1,23 +1,86 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient (to-bottom, #f0f8ff, #d6e9f9); /* soft sky blue */
+  background: top #e6f7ff gradient tobottom, #e6f7ff, #b3d9ff);
   color: #333;
 }
 
-header, footer {
-  background-color: #0077b6; /* deep calm blue */
+/* Header */
+header {
+  background-color: #0077b6;
   color: white;
+  padding: 1em;
   text-align: center;
-  padding: 1-em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4em 2em;
 }
 
 .cta-button {
-  background-color: #ff6b6b; /* hibiscus pink */
+  background-color: #0077b6;
   color: white;
-  padding: 0.75-em 1.5-em;
-  border-radius: 5-px;
+  padding: 0.75em 1.5em;
   text-decoration: none;
+  border-radius: 5px;
   display: inline-block;
-  margin-top: 1-em;
+  margin-top: 1em;
+}
+
+/* Sections */
+section {
+  padding: 2em;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 2em;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 0.75em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1em;
 }
