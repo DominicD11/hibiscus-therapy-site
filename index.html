@@ -8,46 +8,58 @@
 </head>
 <body>
 
-  <header>
-     <img src="images/Logo.png" alt="Logo Icon" />
-    <h1>Hibiscus Therapy & Consulting Services</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <h2>Your Happiness Blooms from Within</h2>
-    <p>Compassionate, culturally competent care—virtual & in-person sessions available.</p>
-    <a href="#contact" class="cta-button">Book a Session</a>
+  <!-- Banner -->
+  <section class="banner">
+    <div class="overlay">
+      <h1>Your Happiness Blooms from Within</h1>
+      <p>Compassionate, culturally competent care for individuals, families, and communities.</p>
+      <a href="#booking" class="cta-button">Book a Session</a>
+    </div>
   </section>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We provide evidence-based mental health services to help you bloom into your best self.</p>
+  <!-- Mission & Vision -->
+  <section class="mission-vision">
+    <div class="block">
+      <img src="images/mission.png" alt="Mission Icon" />
+      <h2>Our Mission</h2>
+      <p>To provide accessible, high-quality mental health services that foster healing, personal growth, and empowerment.</p>
+    </div>
+    <div class="block">
+      <img src="images/vision.png" alt="Vision Icon" />
+      <h2>Our Vision</h2>
+      <p>To be a trusted leader in culturally competent mental health care, bridging gaps and empowering communities.</p>
+    </div>
   </section>
 
-  <section id="services">
+  <!-- Services -->
+  <section class="services">
     <h2>Our Services</h2>
-     <img src="images/Individual 1.png" alt="Services" />
-    <ul>
-      <li>Individual Counseling</li>
-      <li>Family Therapy</li>
-      <li>Group Sessions</li>
-      <li>Substance Abuse Counseling</li>
-      <li>Clinical Supervision</li>
-      <li>Workshops & Trainings</li>
-    </ul>
+    <div class="service-grid">
+      <div class="card">
+        <img src="images/individual.png" alt="Individual Counseling" />
+        <h3>Individual Counseling</h3>
+        <p>Support for anxiety, depression, trauma, and life transitions.</p>
+      </div>
+      <div class="card">
+        <img src="images/family.png" alt="Family Counseling" />
+        <h3>Family Counseling</h3>
+        <p>Helping families navigate challenges and improve dynamics.</p>
+      </div>
+      <div class="card">
+        <img src="images/group.png" alt="Group Therapy" />
+        <h3>Group Therapy</h3>
+        <p>Enhancing communication and strengthening relationships.</p>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
   </section>
 
-  <section id="contact">
+  <!-- Contact -->
+  <section class="contact" id="contact">
     <h2>Contact Us</h2>
     <p>Email: hibiscustherapyservices@gmail.com</p>
     <p>Phone: 757-324-5700</p>
+    <p>Location: Hampton Roads, VA</p>
     <form action="https://formspree.io/f/yourFormID" method="POST">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
@@ -56,6 +68,7 @@
     </form>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Hibiscus Therapy & Consulting Services</p>
   </footer>
