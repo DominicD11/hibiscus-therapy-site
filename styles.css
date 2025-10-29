@@ -1,91 +1,77 @@
-/* General Styles */
-body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f8ff;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hibiscus Therapy & Consulting Services</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-/* Header */
-header {
-  background-color: #0077b6;
-  color: white;
-  padding: 1em;
-  text-align: center;
-}
+  <!-- Banner -->
+  <section class="banner">
+    <div class="overlay">
+      <h1>Your Happiness Blooms From Within</h1>
+      <p>Compassionate, culturally competent care for individuals, families, and communities.</p>
+      <a href="#booking" class="cta-button">Book a Session</a>
+    </div>
+  </section>
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-}
+  <!-- Mission & Vision -->
+  <section class="mission-vision">
+    <div class="block">
+      <img src="Images/Banner.png" alt="Mission Icon" />
+      <h2>Our Mission</h2>
+      <p>To provide accessible, high-quality mental health services that foster healing, personal growth, and empowerment.</p>
+    </div>
+    <div class="block">
+      <img src="images/vision.png" alt="Vision Icon" />
+      <h2>Our Vision</h2>
+      <p>To be a trusted leader in culturally competent mental health care, bridging gaps and empowering communities.</p>
+    </div>
+  </section>
 
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+  <!-- Services -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="card">
+        <img src="images/individual.png" alt="Individual Counseling" />
+        <h3>Individual Counseling</h3>
+        <p>Support for anxiety, depression, trauma, and life transitions.</p>
+      </div>
+      <div class="card">
+        <img src="images/family.png" alt="Family Counseling" />
+        <h3>Family Counseling</h3>
+        <p>Helping families navigate challenges and improve dynamics.</p>
+      </div>
+      <div class="card">
+        <img src="images/group.png" alt="Group Therapy" />
+        <h3>Group Therapy</h3>
+        <p>Enhancing communication and strengthening relationships.</p>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+  </section>
 
-/* Hero Section */
-#hero {
-  background-color: #caf0f8;
-  text-align: center;
-  padding: 2em;
-}
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hibiscustherapyservices@gmail.com</p>
+    <p>Phone: 757-324-5700</p>
+    <p>Location: Hampton Roads, VA</p>
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-#hero h2 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-}
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Hibiscus Therapy & Consulting Services</p>
+  </footer>
 
-button {
-  background-color: #0077b6;
-  color: white;
-  border: none;
-  padding: 0.75em 1.5em;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-/* Sections */
-section {
-  padding: 2em;
-}
-
-ul {
-  list-style-type: disc;
-  padding-left: 2em;
-}
-
-/* Contact Form */
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  max-width: 400px;
-  margin: auto;
-}
-
-input, textarea {
-  padding: 0.75em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1em;
-}
-
-textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-/* Footer */
-footer {
-  background-color: #0077b6;
-  color: white;
-  text-align: center;
-  padding: 1em;
-}
+</body>
+</html>
